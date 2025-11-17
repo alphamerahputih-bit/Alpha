@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Project - Fotografi Wisuda</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#hero" class="nav-logo">ALPHA PROJECT.</a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">Tentang Kami</a></li>
+                <li class="nav-item"><a href="#packages" class="nav-link">Paket Harga</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portofolio</a></li>
+                <li class="nav-item"><a href="#terms" class="nav-link">S&K</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link btn btn-primary">Booking</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="carousel-container">
+                <div class="carousel-slide fade">
+                    <img src="images/hero1.jpg" alt="Wisuda di kampus">
+                    <div class="hero-content">
+                        <h1>Abadikan Mahakarya Pencapaian Anda.</h1>
+                        <p>Fotografi wisuda profesional dengan perspektif unik dan artistik.</p>
+                        <a href="#packages" class="btn btn-primary">Lihat Paket</a>
+                    </div>
+                </div>
+                <div class="carousel-slide fade">
+                    <img src="images/hero2.jpg" alt="Wisudawan berpose ceria">
+                    <div class="hero-content">
+                        <h1>Momen Spesial, Kenangan Abadi.</h1>
+                        <p>Setiap detail penting, kami abadikan dengan sempurna.</p>
+                        <a href="#packages" class="btn btn-primary">Lihat Paket</a>
+                    </div>
+                </div>
+                <div class="carousel-slide fade">
+                    <img src="images/hero3.jpg" alt="Wisudawan bersama keluarga">
+                    <div class="hero-content">
+                        <h1>Rayakan Bersama Orang Terkasih.</h1>
+                        <p>Foto keluarga dan sahabat untuk melengkapi kebahagiaan Anda.</p>
+                        <a href="#packages" class="btn btn-primary">Lihat Paket</a>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left"></i></a>
+                <a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right"></i></a>
+
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2>Tentang Kami</h2>
+                <p>Kami percaya setiap pencapaian adalah sebuah mahakarya. Momen wisuda bukan hanya soal toga dan ijazah; ini adalah perayaan atas dedikasi, perjuangan, dan awal dari babak baru. Alpha Project hadir untuk mengabadikan energi dan emosi hari istimewa Anda dengan perspektif yang unik dan artistik. Kami berfokus pada kualitas, detail, dan cerita yang otentik, memastikan kenangan Anda abadi dan berkelas.</p>
+            </div>
+        </section>
+
+        <section class="packages" id="packages">
+            <div class="container">
+                <h2>Paket Wisuda 2025</h2>
+                <div class="pricing-grid">
+                    
+                    <div class="pricing-card">
+                        <img src="images/package_signature.jpg" alt="Paket Signature">
+                        <h3>Signature</h3>
+                        <div class="price">Rp. 400.000</div>
+                        <ul>
+                            <li>1 Wisudawan Utama</li>
+                            <li>Sesi Eksklusif 60 Menit</li>
+                            <li>20 Foto Pilihan (Edited)</li>
+                            <li>Termasuk Sesi Foto Bersama Keluarga & Rekan</li>
+                            <li>Sesi Dinamis Multi-Spot (1 area kampus)</li>
+                            <li>Seluruh File Foto Digital</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-card featured">
+                        <img src="images/package_extended.jpg" alt="Paket Extended">
+                        <h3>Extended Pack</h3>
+                        <div class="price">Rp. 550.000</div>
+                        <ul>
+                            <li>1 Wisudawan Utama</li>
+                            <li>Sesi Ekstensif 90 Menit</li>
+                            <li>30 Foto Pilihan (Edited)</li>
+                            <li>Termasuk Sesi Foto Bersama Keluarga & Rekan</li>
+                            <li>Sesi Dinamis Multi-Spot (1 area kampus)</li>
+                            <li>Seluruh File Foto Digital</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-card">
+                        <img src="images/package_duo.jpg" alt="Paket Duo">
+                        <h3>The Duo Pack</h3>
+                        <div class="price">Rp. 700.000</div>
+                        <ul>
+                            <li>1 Wisudawan Utama</li>
+                            <li>Sesi Eksklusif 60 Menit</li>
+                            <li>20 Foto Pilihan (Edited)</li>
+                            <li>Termasuk Sesi Foto Bersama Keluarga & Rekan</li>
+                            <li>Sesi Dinamis Multi-Spot (1 area kampus)</li>
+                            <li>Seluruh File Foto Digital</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-card">
+                        <img src="images/package_collective_a.jpg" alt="Paket Collective A">
+                        <h3>Collective A</h3>
+                        <div class="price">Rp 800.000</div>
+                        <ul>
+                            <li>3-5 Wisudawan</li>
+                            <li>Sesi Grup 90 Menit</li>
+                            <li>45 Foto Pilihan (Edited)</li>
+                            <li>Seluruh File Foto Digital</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <img src="images/package_collective_b.jpg" alt="Paket Collective B">
+                        <h3>Collective B</h3>
+                        <div class="price">Rp 1.150.000</div>
+                        <ul>
+                            <li>6-10 Wisudawan</li>
+                            <li>Sesi Grup 120 Menit</li>
+                            <li>70 Foto Pilihan (Edited)</li>
+                            <li>Seluruh File Foto Digital</li>
+                            <li><i>(Penambahan: Rp 100.000/orang)</i></li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-card">
+                        <img src="images/package_presession.jpg" alt="Paket Pre/Post Session">
+                        <h3>Pre/Post-Session</h3>
+                        <div class="price">Rp. 350.000</div>
+                        <ul>
+                            <li>1 Klien</li>
+                            <li>Sesi Eksklusif 60 Menit</li>
+                            <li>15 Foto Pilihan (Edited)</li>
+                            <li>Seluruh File Foto Digital</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2>Portofolio Kami</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio1.jpg" alt="Foto Wisuda 1">
+                        <div class="overlay">
+                            <p>Momen kebahagiaan wisudawan.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/portfolio2.jpg" alt="Foto Wisuda 2">
+                        <div class="overlay">
+                            <p>Bersama sahabat dan keluarga.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/portfolio3.jpg" alt="Foto Wisuda 3">
+                        <div class="overlay">
+                            <p>Detail toga dan senyum ceria.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/portfolio4.jpg" alt="Foto Wisuda 4">
+                        <div class="overlay">
+                            <p>Pose di spot kampus favorit.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/portfolio5.jpg" alt="Foto Wisuda 5">
+                        <div class="overlay">
+                            <p>Potret candid penuh emosi.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/portfolio6.jpg" alt="Foto Wisuda 6">
+                        <div class="overlay">
+                            <p>Gaya artistik dengan latar kampus.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/alphaproject.co" target="_blank" class="btn btn-primary portfolio-btn">Lihat Lebih Banyak di Instagram</a>
+            </div>
+        </section>
+
+
+        <section class="addons" id="addons">
+            <div class="container">
+                <h2>Layanan Tambahan (Add-On)</h2>
+                <ul>
+                    <li><strong>Highlight Video Sinematik (1 Menit):</strong> Rp 850.000</li>
+                    <li><strong>Perpanjangan Waktu Sesi:</strong> Rp 150.000 / 30 Menit</li>
+                    <li><strong>Tambahan Foto Pilihan (Edited):</strong> Rp 50.000 / 5 Foto</li>
+                    <li><strong>Cetak Premium & Bingkai Minimalis (10R):</strong> Rp 65.000 / pcs</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="terms" id="terms">
+            <div class="container">
+                <h2>Syarat & Ketentuan</h2>
+                <ul>
+                    <li><strong>Reservasi:</strong> Booking slot dikonfirmasi setelah pembayaran Booking Fee (DP) 50%. Booking Fee bersifat non-refundable jika terjadi pembatalan oleh klien.</li>
+                    <li><strong>Waktu Sesi:</strong> Durasi sesi dihitung tepat sesuai waktu yang telah disepakati.</li>
+                    <li><strong>Keterlambatan:</strong> Toleransi keterlambatan klien adalah 10 menit. Keterlambatan akan mengurangi total durasi sesi.</li>
+                    <li><strong>Pengiriman File:</strong> Seluruh file foto digital (JPG mentah) dikirimkan maksimal H+1. Link Google Drive akan tersedia selama 14 hari setelah foto editan dikirim.</li>
+                    <li><strong>Proses Editing:</strong> Waktu pengerjaan foto pilihan (edited) adalah 10-14 hari kerja setelah klien mengonfirmasi foto pilihannya.</li>
+                    <li><strong>Lingkup Editing:</strong> Standar editing meliputi color grading dan cropping. Tidak termasuk manipulasi digital atau retouching.</li>
+                    <li><strong>Biaya Eksternal:</strong> Harga paket belum termasuk biaya transportasi di luar Kota Semarang atau biaya masuk/izin lokasi.</li>
+                    <li><strong>Hak Publikasi:</strong> Klien menyetujui bahwa Alpha Project memiliki hak untuk menggunakan hasil foto sebagai bagian dari portofolio dan materi promosi.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Kontak & Booking</h2>
+                <p>Siap mengabadikan momen Anda? Hubungi kami.</p>
+                <div class="contact-links">
+                    <a href="https://api.whatsapp.com/send?phone=6285159012020" target="_blank" class="btn btn-primary">
+                        WhatsApp (+6285159012020)
+                    </a>
+                    <a href="https://www.instagram.com/alphaproject.co" target="_blank" class="btn btn-secondary">
+                        Instagram (@alphaproject.co)
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ALPHA PROJECT. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
